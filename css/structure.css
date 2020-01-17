@@ -533,7 +533,7 @@ sub {
     }
 
     .timeline__controls--center {
-        width: 420px;
+        width: 480px;
     }
 
     .timeline--no-volume .timeline__controls--center {
