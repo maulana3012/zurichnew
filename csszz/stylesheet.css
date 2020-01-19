@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Frutiger';
+    src: url('Frutiger.eot');
+    src: url('Frutiger.eot?#iefix') format('embedded-opentype'),
+        url('Frutiger.woff2') format('woff2'),
+        url('Frutiger.woff') format('woff'),
+        url('Frutiger.ttf') format('truetype'),
+        url('Frutiger.svg#Frutiger') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frutiger';
+    src: url('FrutigerBold.eot');
+    src: url('FrutigerBold.eot?#iefix') format('embedded-opentype'),
+        url('FrutigerBold.woff2') format('woff2'),
+        url('FrutigerBold.woff') format('woff'),
+        url('FrutigerBold.ttf') format('truetype'),
+        url('FrutigerBold.svg#FrutigerBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Frutiger';
+    src: url('Frutiger_1.eot');
+    src: url('Frutiger_1.eot?#iefix') format('embedded-opentype'),
+        url('Frutiger_1.woff2') format('woff2'),
+        url('Frutiger_1.woff') format('woff'),
+        url('Frutiger_1.ttf') format('truetype'),
+        url('Frutiger_1.svg#Frutiger') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
