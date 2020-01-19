@@ -115,52 +115,43 @@ var Translations = {
             "states": [
                 {
                     "cardId": "START",
-                    "width": 14
+                    "width": 16
                 }
             ]
         },
         {
-            "label": "<p>Thank You<br/>Speech</p>",
+            "label": "<p>Product<br/>Information</p>",
             "states": [
                 {
-                    "cardId": "5cf9a741",
-                    "width": 15
+                    "cardId": "e7a6fa6f",
+                    "width": 17
                 }
             ]
         },
         {
-            "label": "<p>Verification<br/>Customer Data</p>",
+            "label": "<p>Data<br/>Confirmation</p>",
             "states": [
                 {
-                    "cardId": "bdee4a77",
-                    "width": 20
+                    "cardId": "c77805a9",
+                    "width": 17
                 }
             ]
         },
         {
-            "label": "<p>Product<br/>Info</p>",
+            "label": "<p>Policy<br/>Information</p>",
             "states": [
                 {
-                    "cardId": "d7466468",
-                    "width": 12
+                    "cardId": "d51b4891",
+                    "width": 17
                 }
             ]
         },
         {
-            "label": "<p>Product<br/>Detail</p>",
+            "label": "<p>Survey<br/>Information</p>",
             "states": [
                 {
-                    "cardId": "4a146056",
-                    "width": 13
-                }
-            ]
-        },
-        {
-            "label": "<p>Legal<br/>Statement</p>",
-            "states": [
-                {
-                    "cardId": "2037c7e7",
-                    "width": 14
+                    "cardId": "9a27b1b3",
+                    "width": 17
                 }
             ]
         },
@@ -168,8 +159,8 @@ var Translations = {
             "label": "<p>Close<br>Speech",
             "states": [
                 {
-                    "cardId": "15f3f747",
-                    "width": 12
+                    "cardId": "END",
+                    "width": 16
                 }
             ]
         }
