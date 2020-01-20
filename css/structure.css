@@ -1927,7 +1927,7 @@ sub {
     }
     .main {
         position: relative;
-        width: 360px;
+        width: 375px;
     }
 
     .top-wrapper--no-cta .main .player,
@@ -1939,7 +1939,7 @@ sub {
     .player__wrapper {
         position: relative;
         padding-top: 191px; /* 9/16 = 0.5625 */
-        width: 360px;
+        width: 375px;
         height: 0;
     }
 
@@ -1951,7 +1951,7 @@ sub {
 
     .timeline,
     .timeline__controls {
-         width: 100%;
+         width: 375px;
          height: calc(100vh * 0.5/12);
     }
 
