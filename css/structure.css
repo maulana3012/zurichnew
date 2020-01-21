@@ -882,7 +882,7 @@ sub {
 
     .player__wrapper {
         width: 950px;
-        height: 540px;
+        height: 520px;
     }
 
     .fullscreen .player__wrapper {
