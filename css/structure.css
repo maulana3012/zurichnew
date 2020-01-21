@@ -849,7 +849,7 @@ sub {
         position: relative;
         display: block;
         margin: 0 auto;
-        width: 1000px;
+        width: 980px;
     }
 
     .main::after {
@@ -1217,15 +1217,15 @@ sub {
 
     .top-wrapper--no-cta .main,
     .top-wrapper--no-promo .main{
-        width: 1000px;
+        width: 980px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
-        width: 1000px;
+        width: 980px;
     }
 
     .fullscreen .top-wrapper--no-cta .player {
-        width: 100%;
+        width: 980px%;
     }
 
     .top-wrapper--no-promo .timeline__controls--center,
