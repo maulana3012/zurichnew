@@ -70,10 +70,12 @@
 .fullscreen .timeline__button--skip-back,
 .fullscreen .timeline__button--skip-forward,
 .fullscreen .timeline__button--play-pause {
-    width: 160px;
+    width: 180px;
 }
 
-.timeline__button--settings,
+.timeline__button--settings {
+    display: none;
+}
 .timeline__button--fullscreen {
     width: 70px;
     text-align: center;
@@ -817,7 +819,7 @@
     .timeline {
         color: #FFFFFF;
         background-color: #003366;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .timeline__cover {
@@ -837,7 +839,7 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 55px;
+        width: 65px;
     }
 
     .fullscreen .timeline__button--skip-back,
@@ -846,9 +848,11 @@
         width: 33.333%;
     }
 
-    .timeline__button--settings,
+    .timeline__button--settings {
+        display: none;
+    }
     .timeline__button--fullscreen {
-        width: 70px;
+        width: 40px;
         text-align: center;
     }
 
@@ -1214,7 +1218,7 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 20px;
+        width: 28px;
     }
 
     .timeline__button--settings {
