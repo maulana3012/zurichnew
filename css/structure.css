@@ -849,7 +849,7 @@ sub {
         position: relative;
         display: block;
         margin: 0 auto;
-        width: 1000px;
+        width: 950px;
     }
 
     .main::after {
@@ -881,7 +881,7 @@ sub {
     }
 
     .player__wrapper {
-        width: 1000px;
+        width: 950px;
         height: 540px;
     }
 
@@ -1217,11 +1217,11 @@ sub {
 
     .top-wrapper--no-cta .main,
     .top-wrapper--no-promo .main{
-        width: 1000px;
+        width: 950px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .main {
-        width: 1000px;
+        width: 950px;
     }
 
     .fullscreen .top-wrapper--no-cta .player {
