@@ -1855,12 +1855,13 @@ sub {
 
 @media screen and (min-width: 360px) and (max-width: 640px) and (orientation: portrait) {
     .body {
-        width: auto;
+        width: 100%;
+        height: calc(100vmax - 50vmin);
         overflow-x: hidden;
     }
     .main {
         position: relative;
-        width: 100%;
+        width: 360px;
     }
 
     .top-wrapper--no-cta .main .player,
@@ -1872,7 +1873,7 @@ sub {
     .player__wrapper {
         position: relative;
         padding-top: 191px; /* 9/16 = 0.5625 */
-        width: 100%;
+        width: 360px;
         height: 0;
     }
 
