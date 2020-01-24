@@ -1897,17 +1897,17 @@ sub {
 
     .timeline__controls--left,
     .timeline--no-volume .timeline__controls--left {
-        width: 70px;
+        width: 80px;
         border-right: 1px solid;
     }
 
     .timeline__controls--center,
     .timeline--no-volume .timeline__controls--center {
-        width: 180px;
+        width: 200px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 180px;
+        width: 200px;
     }
 
     .timeline__controls--right,
