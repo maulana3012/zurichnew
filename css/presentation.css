@@ -1828,13 +1828,13 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 17px;
+        width: 15px;
     }
 
     .fullscreen .timeline__button--skip-back,
     .fullscreen .timeline__button--skip-forward,
     .fullscreen .timeline__button--play-pause {
-        width: 23px;
+        width: 17px;
     }
 
     .fullscreen .timeline__button--settings,
