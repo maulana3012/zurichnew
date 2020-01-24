@@ -1903,11 +1903,11 @@ sub {
 
     .timeline__controls--center,
     .timeline--no-volume .timeline__controls--center {
-        width: 200px;
+        width: 220px;
     }
 
     .top-wrapper--no-cta.top-wrapper--no-promo .timeline__controls--center {
-        width: 200px;
+        width: 220px;
     }
 
     .timeline__controls--right,
@@ -1933,9 +1933,9 @@ sub {
     }
 
     .timeline-chapters {
-        line-height: 10px !important;
+        line-height: 15px !important;
         text-align: center;
-        font-size: 0.5em !important;
+        font-size: 0.4em !important;
     }
 
     .fullscreen.less-16-9 .timeline-chapters {
