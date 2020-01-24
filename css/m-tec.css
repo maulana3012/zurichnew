@@ -359,6 +359,12 @@ button.btn {
 		width: 100%;
 	}
 
+	.fullscreen .phone,
+	.fullscreen .email,
+	.fullscreen .web, {
+		display: none;
+	}
+
 	.phone {
 		height: 100%;
 		width: 300px;

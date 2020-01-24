@@ -1828,7 +1828,7 @@
     .timeline__button--skip-back,
     .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 15px;
+        width: 17px;
     }
 
     .fullscreen .timeline__button--skip-back,

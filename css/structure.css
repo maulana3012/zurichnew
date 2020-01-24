@@ -1919,17 +1919,17 @@ sub {
 
     .fullscreen .timeline__controls--left,
     .fullscreen .timeline--no-volume .timeline__controls--left {
-        width: 100px;
+        width: 85px;
     }
 
     .fullscreen .timeline__controls--center,
     .fullscreen .timeline--no-volume .timeline__controls--center {
-        width: 215px;
+        width: 235px;
     }
 
     .fullscreen .timeline__controls--right,
     .fullscreen .timeline--no-volume .timeline__controls--right {
-        width: 30px;
+        width: 55px;
     }
 
     .timeline-chapters {
