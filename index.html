@@ -72,7 +72,7 @@
 
 <body class="body hidden-scrollbar">
   <!-- Head -->
-    <nav class="navbar navbar-inverse navbar-axa">
+    <nav class="navbar navbar-inverse navbar-z">
           <div class="col-lg-12" align="center">
             <a href="index.html" class="nav navbar-nav" style="margin: 0; float: none; text-align:center">
               <img src="images/z.png" class="logo-nav" align="center">
@@ -81,22 +81,21 @@
     </nav>
 
   <!-- end header -->
-
-  <divc class="ifrem">
+<!-- body -->
+<div class="ifrem">
     <div class="col-lg-12">
-      <div>
-                   <div id="jsTopWrapper" class="top-wrapper--no-cta top-wrapper--no-promo">
-                        <div id="jsMain" class="main">
-                            <div class="player">
-                                <div class="player__wrapper">
-                                    <div class="player__iframe" id="jsPlayerIframe">
-                                    {{VIDEO_IFRAME}}
-                                    </div>
-                                </div>
-                            </div>
-                            <br class="clearfix">
-                            <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
-                                <!-- <div id="jsTimelineCover" class="timeline__cover"></div> -->
+        <div id="jsTopWrapper" class="top-wrapper--no-cta top-wrapper--no-promo">
+            <div id="jsMain" class="main">
+                <div class="player">
+                    <div class="player__wrapper">
+                        <div class="player__iframe" id="jsPlayerIframe">
+                            {{VIDEO_IFRAME}}
+                        </div>
+                    </div>
+                </div>
+                <br class="clearfix">
+                <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
+            <!-- <div id="jsTimelineCover" class="timeline__cover"></div> -->
                             <div class="timeline__controls timeline__controls--left">
                                 <button id="jsSkipBackButton" type="button" class="jsTimelineButton timeline__button timeline__button--skip-back no-focus">
                                     <span class="timeline__button-icon timeline__button-icon--skip-back"></span>
@@ -160,49 +159,86 @@
                                     <span class="sr-only translate" data-translate="FullScreenButtonText">Full Screen</span>
                                 </button>
                             </div>
-                            <br><br>
-                            <div class="container-fluid">
-                            <div class="col-lg-12">
-                                <p align="center" style="font-size: 1.3em; color: black; font-weight: bold; padding: 5px;">Informasi lebih lanjut hubungi:</p>
-                                <div class="row">
-                                  <div class="col-lg-4">
-                                      <a href="tel:+6221 1500 987"><img src="images/phone-n.png" class="phone"></a>
-                                  </div>
-                                  <div class="col-lg-4">
-                                      <a href="mailto:customercare.indo@zurich.co.id"><img src="images/email.png" class="email"></a>
-                                  </div>
-                                  <div class="col-md-4">
-                                        <a href="https://goo.gl/maps/jMkL2DcbTJ6MHDzF9" target="_blank"><img src="images/address.png" class="address"></a>
-                                  </div>
-                                </div>  
-                            </div> 
 
                     </div>
                         </div>
                    </div>
-               </div>
-
-                </div>
     </div>
-    
-  </div>
-
-
-  <!-- Footer -->
-  <div class="footer">
-    <footer class="footer">
-            <div class="footer__poweredby">
-                <p style="color: #333333; float: right; font-size: 12px; padding: 10px;">Copyright &copy; 2020 Zurich</p>
-                <div style="float: left; padding: 10px;">
-                    <a href="https://www.facebook.com/ZurichID/" target="_blank"><img src="images/fb.png" style="width: 35px; height: 35px;"></a>
-                    <a href="https://twitter.com/ZurichIndonesia" target="_blank"><img src="images/tw.png" style="width: 35px; height: 35px;"></a>
-                    <a href="https://www.instagram.com/zurichid/" target="_blank"><img src="images/ig.png" style="width: 35px; height: 35px;"></a>
-                    <a href="https://www.youtube.com/channel/UCaKhmCNNA6pPuY56o3ej4tA" target="_blank"><img src="images/yt.png" style="width: 35px; height: 35px;"></a>
-                    <a href="https://www.zurich.co.id/"><img src="images/web.png" style="width: 35px; height: 35px;"></a>
+</div>
+<!-- end Body -->
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <p align="center" style="font-size: 1.3em; color: black; font-weight: bold; padding: 5px;">Informasi lebih lanjut hubungi:</p>
+        <div class="row">
+            <div class="col-lg-3 col-lg-push-3">
+                <div class="icon-phone no-focus">
+                    <span class="icon-ld icon--phone"></span>
+                </div>
+                <div class="col-lg-8 col-lg-push-2">
+                    <p class="font-phone">1500-ZUR(987)</p>
                 </div>
             </div>
-
-        </footer>
+            <div class="col-lg-3 col-lg-push-2">
+                <div class="icon-email no-focus">
+                    <span class="icon-ld icon--email"></span>
+                </div>
+                <div class="col-lg-8 col-lg-push-2">
+                    <p class="font-email">www.zurich.co.id</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-lg-push-1">
+                <div class="icon-address no-focus">
+                    <span class="icon-ld icon--address"></span>
+                </div>
+                <div class="col-lg-12 col-lg-push-2">
+                    <p class="font-address">PT Zurich Topas Life, Mayapada Tower II Lt.3<br>Jl.Jend. Sudirman Kav.27. Jakarta 12920</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Footer -->
+  <div class="footer">
+    <footer class="footer"> 
+        <div class="container-fluid">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-1 p-fb">
+                                <div class=" icon-facebook no-focus">
+                                    <span class="icon-ld icon--facebook"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 p-ig">
+                                <div class="icon-instagram no-focus">
+                                    <span class="icon-ld icon--instagram"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 p-tw">
+                                <div class="icon-twitter no-focus">
+                                    <span class="icon-ld icon--twitter"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 p-yt">
+                                <div class="icon-youtube no-focus">
+                                    <span class="icon-ld icon--youtube"></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 p-web">
+                                <div class="icon-web no-focus">
+                                    <span class="icon-ld icon--web"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                            <span class="copyright">Copyright PT Zurich Topas Life</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
   </div>
   <!-- end Footer -->
     

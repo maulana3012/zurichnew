@@ -1,6 +1,5 @@
 .hidden-scrollbar {
   background-color:black;
-  border:2px solid #666;
   color:white;  
   overflow:hidden;
   text-align:justify;    
@@ -10,10 +9,10 @@
   height:200px;
   overflow:auto;
   margin:15px -300px 15px 15px;
-  padding-right:300px; /* Samakan dengan besar margin negatif */
+  padding-right:300px; 
 }
 .body {
-	background: url("../images/background/bacground-z.png");
+	background: url("../images/background/bacground.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -24,7 +23,7 @@
 		margin: 0 -60px;
 }
 
-.navbar-axa {
+.navbar-z {
 	margin-top:-40px;
 	background-color: transparent;
 	border-radius: none;
@@ -41,6 +40,120 @@
 	background-position: center center;
 }
 
+.icon-ld {
+	--timeline-bgX: 0%;
+    --timeline-bgY: 60%;
+
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: url("../images/Icon-zurich.png") no-repeat;
+    background-position-y: 60%;
+    background-position: var(--timeline-bgX) var(--timeline-bgY);
+    background-size: 820% 205%;
+}
+
+.icon-phone,
+.icon-email,
+.icon-address {
+	width: 60px;
+}
+
+.icon--phone {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/26) * 22.3);
+    --timeline-bgY: 0%;
+}
+
+.icon--email {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/26) * 18.55);
+    --timeline-bgY: 0%;
+}
+
+.icon--address {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/26) * 14.85);
+    --timeline-bgY: 0%;
+}
+
+.font-phone,
+.font-email {
+	color: black;
+	margin-top: -45px;
+	font-size: 1.5em;
+	width: 20em;
+}
+
+.font-address {
+	color: black;
+	margin-top: -60px;
+	font-size: 1.5em;
+	width: 20em;
+}
+
+.icon-sosmed{
+	--timeline-bgX: 0%;
+    --timeline-bgY: 60%;
+
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background: url("../images/Icon-zurich.png") no-repeat;
+    background-position-y: 60%;
+    background-position: var(--timeline-bgX) var(--timeline-bgY);
+    background-size: 800% 20%;
+}
+
+.icon-facebook,
+.icon-instagram,
+.icon-twitter,
+.icon-youtube,
+.icon-web {
+	width: 60px;
+	padding: 10px 10px 10px 10px;
+}
+
+.icon--facebook {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/100) * -0.05);
+    --timeline-bgY: 99.6%;
+}
+
+.icon--instagram {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/100) * 28.6);
+    --timeline-bgY: 99.6%;
+}
+
+.icon--twitter {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/100) * 14.3);
+    --timeline-bgY: 99.6%;
+}
+
+.icon--youtube {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/100) * 42.8);
+    --timeline-bgY: 99.6%;
+}
+
+.icon--web {
+	width: 60px;
+	height: 60px;
+	background-position-x: calc((100%/100) * 100);
+    --timeline-bgY: 98.9%;
+}
+
 .footer {
 	position: fixed;
 	left: 0;
@@ -51,457 +164,34 @@
 	text-align: center;	
 }
 
-.fo {
-
-}
-
-.phone {
-	height: 100%;
-	width: 200px;
-	margin-left: -20px;
-}
-
-.email {
-	height: 100%;
-	width: 200px;
-	margin-left: -40px;
-}
-
-.address {
-	height: 100%;
-	width: 200px;
-}
-
-button.btn {
-	background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
-	border: 1px solid #003366;
-	border-radius: 8px;
-	width: 250px;
-	-webkit-font-size: 18px;
-	-webkit-border-radius: 8px;
-}
-
-.btn-axa { font-size: 1.2em;  cursor: no-drop; }
-
-.rnd {
-	display: inline-block;
-	height: 10px;
-	width: 10px;
-	border-radius: 10px;
-	background-color: #222;
-	color: #FFFFFF;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-o-border-radius: 10px;
-}
-
-.rnd-ls {
-	height: 25px;
-	width: 25px;
-	border-radius: 25px;
-	font-size: 2px;
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	-o-border-radius:25px;
-}
-
-.rnd-green {
-	background-color: #003366;
-	color: #FFFFFF;
-}
-
-.fa-phone:before {
-	line-height: 25px;
-}
-
-.fa-globe:before {
-	line-height: 25px;
-}
-
-.fa-phone,.rnd,.rnd-ls,.rnd-green {float: left;}
-
-.text-justify {
-	margin-left: -35px;
-	font-size: 1.2em;
-}
-
-.my-1 {
-	margin-top: -20px;
-}
-
 .copyright {
-	font-size: 1.2em;
+	float: right;
+	color: black;
+	font-size: 1.4em;
+	padding: 30px 10px 10px 10px; 
 }
 
-.text-table {
-	left: 1px;
-	right: 1px;
-	margin: 0 -30px 10px;
-	font-size: 1.2em;
+.p-fb {
+	left: 10px;
+	top: 5px;
 }
 
-@media screen and (max-width: 2460px) {
-	.text-justify {
-		margin-left: -35px;
-		font-size: 1.5em !important;
-	}
-
-	.pad-video {
-		margin-left: -130px;
-	}
-
-	.text-table {
-		left: 1px;
-		right: 1px;
-		margin: 0 -30px 10px;
-		font-size: 1.5em !important;
-	}
-
-	.fo {
-
-	}
-
-	.fo .footer {
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		height: calc(100vh * 1/9);
-		background-color: #FFFFFF;
-		color: #FFFFFF;
-		text-align: center;	
-	}
-
-	.copyright {
-		font-size: 1.5em !important;
-	}
-
-	button.btn {
-		background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
-		border: 1px solid #003366;
-		border-radius: 8px;
-		width: 300px;
-		height: 55px;
-		margin: 40px;
-		-webkit-font-size: 18px;
-		-webkit-border-radius: 8px;
-	}
-
-	.btn-axa { font-size: 1.5em;  cursor: no-drop; }
-
-	.phone {
-	height: 100%;
-	width: 200px;
-	margin-left: -20px;
-	}
-
-	.email {
-		height: 100%;
-		width: 200px;
-		margin-left: -40px;
-	}
-
-	.address {
-		height: 100%;
-		width: 200px;
-	}
+.p-ig {
+	left: 20px;
+	top: 5px;
 }
 
-@media screen and (max-width: 1640px) {
-	.pad-video {
-		margin-left: -80px;
-	}
-	.text-justify {
-		margin-left: -35px;
-		font-size: 1.1em !important;
-	}
-
-	.logo-nav {
-		height: 100%;
-		width: calc(100vh * 1/7);
-	}
-
-	.text-table {
-		left: 1px;
-		right: 1px;
-		margin: 0 -30px 10px;
-		font-size: 1.1em !important;
-	}
-
-	button.btn {
-		background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
-		border: 1px solid #003366;
-		border-radius: 8px;
-		width: 200px !important;
-		height: 40px;
-		-webkit-font-size: 18px;
-		-webkit-border-radius: 8px;
-	}
-
-	.btn-axa { font-size: 1.1em;  cursor: no-drop; }
-
-	.ml {
-		margin-left: 100px;
-	}
-
-	.footer {
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		background-color: #FFFFFF;
-		color: #FFFFFF;
-		text-align: center;	
-	}
-
-	.fo {
-		width: 10em;
-		height: 2.5em;
-	}
-
-	.phone {
-		height: 100%;
-		width: 200px;
-		margin-left: -20px;
-	}
-
-	.email {
-		height: 100%;
-		width: 200px;
-		margin-left: -40px;
-	}
-
-	.address {
-		height: 100%;
-		width: 200px;
-	}
-	
+.p-tw {
+	left: 30px;
+	top: 5px;
 }
 
-
-@media screen and (max-width: 700px) and (orientation: portrait) {
-	.body {
-		background: #ffffff;
-		background-repeat: no-repeat;
-		background-position: center top;
-		background-size: cover;
-	}
-
-	.pad-video {
-		margin-left: -10px;
-	}
-
-	.navbar-axa {
-		width: 100%;
-		height: auto;
-	}
-	.logo-nav {
-		width: 80px;
-	}
-	.ifrem {
-	padding-left: -200em;
-
-	}
-
-	.text-justify {
-		font-size: 0.9em !important;
-		left: 1px;
-		right: 1px;
-		margin: 0 -30px 10px;
-	}
-	.text-table {
-		font-size: 0.9em !important;
-	}
-
-	button.btn {
-		font-size: 0.8em !important;
-		background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
-		border: 1px solid #003366;
-		border-radius: 0.7em;
-		width: 140px !important;
-		height: 30px;
-		margin: 1px ;
-		-webkit-font-size: 0.7em !important;
-		-webkit-border-radius: 0.7em !important;
-	}
-
-	.btn-axa { font-size: 1.2em;  cursor: no-drop; }
-
-	.rnd {
-		display: inline-block;
-		height: 10px;
-		width: 10px;
-		border-radius: 10px;
-		background-color: #222;
-		color: #FFFFFF;
-		-webkit-border-radius: 10px;
-		-moz-border-radius: 10px;
-		-o-border-radius: 10px;
-	}
-
-	.rnd-ls {
-		height: 15px;
-		width: 15px;
-		border-radius: 25px;
-		font-size: 2px;
-		-webkit-border-radius: 25px;
-		-moz-border-radius: 25px;
-		-o-border-radius:25px;
-	}
-
-	.rnd-green {
-		background-color: #003366;
-		color: #FFFFFF;
-	}
-
-	.fa-phone:before {
-	line-height: 15px;
-	}
-
-	.fa-globe:before {
-		line-height: 15px;
-	}
-
-	.fa-phone,.rnd,.rnd-ls,.rnd-green {float: left;}
-
-
-	.copyright {
-		font-size: 0.9em !important;
-	}
-
-	.footer {
-		width: 100%;
-	}
-
-	.fullscreen .phone,
-	.fullscreen .email,
-	.fullscreen .address {
-		display: none;
-	}
-
-	.phone {
-		height: 100%;
-		width: 300px;
-		margin-left: -10px;
-	}
-
-	.email {
-		height: 100%;
-		width: 300px;
-		margin-left: -10px;
-	}
-
-	.address {
-		height: 100%;
-		width: 300px;
-		margin-left: -10px;
-	}
+.p-yt {
+	left: 40px;
+	top: 5px;
 }
 
-@media screen and (max-width: 700px) and (orientation:landscape) {
-	.body {
-		background: url("../images/background/ip-landscape-op.png");
-		background-repeat: no-repeat;
-		background-position: center top;
-		background-size: cover;
-	}
-	.navbar-axa {
-		width: 100%;
-		height: auto;
-	}
-	.logo-nav {
-		width: 150px;
-		float: right;
-	}
-	.fo{
-		font-size: 0.9em !important;
-		width: calc(100vw * 4/4);
-
-	}
-
-	.text-justify {
-		font-size: 1em !important;
-		left: 1px;
-		right: 1px;
-		margin: 0 -30px 10px;
-	}
-
-	.text-table {
-		font-size: 0.9em !important;
-		left: 1px;
-		right: 1px;
-		margin: 0 -30px 10px;
-	}
-
-	button.btn {
-		font-size: 0.8em !important;
-		background: linear-gradient(-600deg, #FFFFFF 88%, #003366 12%);
-		border: 1px solid #003366;
-		border-radius: 0.7em;
-		width: 140px;
-		height: 30px;
-		-webkit-font-size: 0.7em !important;
-		-webkit-border-radius: 0.7em !important;
-	}
-
-	.btn-axa { font-size: 1.2em;  cursor: no-drop; }
-
-	.rnd {
-		display: inline-block;
-		height: 10px;
-		width: 10px;
-		border-radius: 10px;
-		background-color: #222;
-		color: #FFFFFF;
-		-webkit-border-radius: 10px;
-		-moz-border-radius: 10px;
-		-o-border-radius: 10px;
-	}
-
-	.rnd-ls {
-		height: 15px;
-		width: 15px;
-		border-radius: 25px;
-		font-size: 2px;
-		-webkit-border-radius: 25px;
-		-moz-border-radius: 25px;
-		-o-border-radius:25px;
-	}
-
-	.rnd-green {
-		background-color: #003366;
-		color: #FFFFFF;
-	}
-
-	.fa-phone:before {
-	line-height: 15px;
-	}
-
-	.fa-globe:before {
-		line-height: 15px;
-	}
-
-	.fa-phone,.rnd,.rnd-ls,.rnd-green {float: left;}
-
-	.footer {
-		width:100%;
-	}
-
-
-	.phone {
-		height: 100%;
-		width: 200px;
-		margin-left: -20px;
-	}
-
-	.email {
-		height: 100%;
-		width: 200px;
-		margin-left: -40px;
-	}
-
-	.address {
-		height: 100%;
-		width: 200px;
-	}
+.p-web {
+	left: 50px;
+	top: 5px;
 }
